@@ -1,0 +1,28 @@
+# TODO
+
+  -  [ ] github badge in home page
+
+
+## KTV subscript
+
+### story
+
+  - when playing youtube pop songs, display a text area with lyrics, called transcript
+  - lyrics is auto-scrolling along with the playing
+  - when video pause, pause scrolling
+  - highlight the line of lyrics according the timestamp
+
+
+### tech stack
+
+  - a react component
+  - using vtt subscript as prop?
+  - current timestamp is state
+
+
+### misc
+
+  - how to create REAL KTV style subsciption?
+      - two lines display with switching
+      - accurate progress bar according to each pitch or 'note'
+
