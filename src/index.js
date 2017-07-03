@@ -8,6 +8,7 @@ import VideoList from './components/video_list'
 import VideoDetail from './components/video_detail'
 
 const API_KEY = 'AIzaSyCsXdbPrzBFmlIYc017K28qw6LiH8Hm-iM'
+const SEARCH_KEYWORD = 'nba playoff'
 
 // create an functional component App
 class App extends Component {
@@ -19,7 +20,7 @@ class App extends Component {
       selectedVideo: null
     }
 
-    this.videoSearch('nba playoff')
+    this.videoSearch(SEARCH_KEYWORD)
   }
 
   videoSearch(term) {
